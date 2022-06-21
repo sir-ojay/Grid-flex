@@ -1,8 +1,8 @@
 body{box-sizing: content-box;
 width: 1024px;
-background-color: rgba(6, 6, 43, 0.959);}
+background-color: hsl(0, 0%, 95%);}
 main{
-   margin-top: 15vh;
+   margin-top: 10vh;
    margin-left: 23vw;
 }
 .container{
@@ -43,8 +43,24 @@ main{
 .button{
   float: right;
   background-color:hsl(31, 77%, 52%) ;
+  width: 7.5vw;
+  height: 5vh;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 15px 15px;
 }
 .button a{
     text-decoration: none;
-    color:hsla(0, 0%, 100%, 0.75) ;
+    color:hsla(343, 100%, 1%, 0.75) ;
+    padding: 15px 10px 10px 5px;
+    font-size: 18px;
+  
+}
+ .button:hover {
+     background-color: hsla(0, 0%, 100%, 0.75);
+     border: 1px solid black;
+ }
+.button a:hover {
+    color: lightskyblue;
+    font-size: 20px;
 }
